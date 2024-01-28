@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> 👕 Green Market 👕 | Environmentally & human-friendly clothes </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="logo.png">
+  </head>
+  <body>
+    <h1 id="titre">Green Market<nav></nav> </h1>
+    <h2>Environmentally & human-friendly clothes</h2>
+    <section id="options">
+      <div id="show">
+        <label for="show-select">Show:</label>
+        <select name="show" id="show-select">
+          <option value="12">12</option>
+          <option value="24">24</option>
+          <option value="48">48</option>
+        </select>
+      </div>
+      <div id="page">
+        <label for="page-select">Go to page:</label>
+        <select name="page" id="page-select"></select>
+      </div>
+      <div id="filters">
+        <label for="filter-select">Filter:</label>
+        <select name="filter" id="filter-select">
+          <option value=""></option>
+          <option value="select-reasonable" id="select-reasonable">By reasonable price</option>
+          <option value="select-recent" id="select-recent">By recently released</option>
+        </select>
+        <div id="select">
+          <label for="page-select">Favourites</label>
+          <input type="checkbox" id="select-favorite"></input>
+        </div>
+        <div id="brand">
+          <label for="brand-select">By brands:</label>
+          <select name="brand" id="brand-select"> </select>
+        </div>
+      </div>
+      <div id="sort">
+        <label for="sort-select">Sort:</label>
+        <select name="sort" id="sort-select">
+          <option value="price-asc">Cheaper</option>
+          <option value="price-desc">Expensive</option>
+          <option value="date-asc">Recently released</option>
+          <option value="date-desc">Anciently released</option>
+        </select>
+      </div>
+    </section>
+    <br>
+    <section id="indicators">
+      <h2 style="color: white">Together for Eco-Friendly Fashion: Explore a thoughtfully curated selection of environmentally responsible clothing.</h2>
+    </section>
+    <br>
+    <section id="products"></section>
+    <script>
+    </script>
+    <script type="text/javascript" charset="UTF-8" src="portfolio.js"></script>
+  </body>
+</html>

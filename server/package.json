@@ -1,0 +1,22 @@
+{
+  "name": "clear-fashion-scraper",
+  "version": "0.0.1",
+  "description": "What's the story behind each item of clothing you buy?",
+  "main": "index.js",
+  "repository": "git@github.com:92bondstreet/clear-fashion.git",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongodb": "^4.13.0",
+    "node-fetch": "^2.6.8",
+    "parse-domain": "^7.0.1",
+    "require-all": "^3.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
